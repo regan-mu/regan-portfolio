@@ -6,7 +6,7 @@ import { AiOutlineCalendar } from "react-icons/ai";
 
 const ArticleCard = ({image, title, intro, date, link}: IArticle) => {
     return (
-        <Link className="flex shadow-md shadow-gray-700 flex-col w-80  rounded-md h-80 overflow-hidden hover:scale-[1.03] duration-100 delay-75 group" rel="noopener noreferrer" target="_blank" href={link}  >
+        <Link className="flex shadow-md shadow-gray-700 flex-col w-full  rounded-md h-80 overflow-hidden hover:scale-[1.03] duration-100 delay-75 group sm:w-80" rel="noopener noreferrer" target="_blank" href={link}  >
             <Image className="w-full h-1/2" src={image} alt={title} width={400} height={300} priority />
             <div className="p-3 h-full flex flex-col gap-2 font-poppins bg-[#444444]">
                 <h2 className="font-semibold text-brand font-poppins line-clamp-1 group-hover:underline underline-offset-2">{title}</h2>

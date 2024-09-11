@@ -3,7 +3,7 @@ import { articles } from "@/app/data/articleData";
 import ArticleCard from "../cards/article";
 const Articles = () => {
     return (
-        <div className="flex flex-wrap gap-10 mt-5">
+        <div className="flex flex-wrap gap-5 mt-5 lg:gap-10">
             {
                 articles.map(article => <ArticleCard 
                     key={article.id} 

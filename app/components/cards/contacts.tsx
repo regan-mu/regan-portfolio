@@ -8,7 +8,7 @@ const ContactCard = ({icon, method, value}: {icon: ReactNode, method: string, va
             </div>
             <div className="">
                 <p className="uppercase text-gray-400 font-semibold text-sm">{method}</p>
-                <p className="text-sm font-light text-clip">{value}</p>
+                <p className="text-sm font-light text-clip lg:text-xs">{value}</p>
             </div>
         </div>
     )

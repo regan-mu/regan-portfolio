@@ -3,7 +3,7 @@ import skillsData from "../../data/skillsData";
 
 const Skills = () => {
     return (
-        <div className="grid grid-cols-2 gap-10">
+        <div className="grid grid-cols-1 gap-10 md:grid-cols-2">
             {skillsData.map(skill => <SkillsGrouping key={skill.id} grouping={skill.grouping} tools={skill.tools} id={skill.id} />)}
         </div>
     )

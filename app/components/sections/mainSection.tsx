@@ -11,7 +11,7 @@ import { AppContextType } from "../types";
 const MainPageSection = () => {
     const {activePage} = useContext(AppContext) as AppContextType;
     return (
-        <div className="rounded-xl p-10 w-full col-span-5 bg-lightBg flex flex-col gap-10">
+        <div className="rounded-xl p-10 w-full col-span-5 bg-lightBg flex flex-col gap-10 mt-10 lg:mt-0">
             <NavBar />
             {activePage === "About Me" && <AboutMe />}
             {activePage === "Resume" && <Resume />}

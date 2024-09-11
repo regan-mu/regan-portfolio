@@ -25,3 +25,12 @@ export interface ISkillGroup {
     grouping: string,
     tools: string[]
 }
+
+export interface IProject {
+    id: number,
+    title: string,
+    description: string,
+    demo: string,
+    github: string,
+    tools: string[]
+}
