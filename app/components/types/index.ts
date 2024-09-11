@@ -18,6 +18,8 @@ export interface IJob {
 export type AppContextType = {
     activePage: string;
     setPage: (page: string) => void;
+    toggleInfo: boolean;
+    setToggle: () => void; 
 }
 
 export interface ISkillGroup {
