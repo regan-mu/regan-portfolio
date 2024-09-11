@@ -6,7 +6,7 @@ import MoreArticles from "../buttons/moreArticles"
 const AboutMe = () => {
     return (
         <div className="flex flex-col gap-12">
-            <div className="flex flex-col gap-2 text-lg col-span-2">
+            <div className="flex flex-col gap-2 col-span-2 md:text-lg">
                 <p>
                     I&apos;m a Software Engineer skilled in Python, Typescript, and SQL, 
                     with a focus on writing clean, efficient code and building practical 
@@ -23,7 +23,7 @@ const AboutMe = () => {
             </div>
             <div className="flex flex-col gap-10">
                 <div className="flex w-full justify-between items-center">
-                    <h2 className="text-2xl h-max relative font-semibold after:bg-brand after:w-14 after:h-1 after:absolute after:rounded-md after:-bottom-2 after:left-0 md:text-3xl">Featured Articles</h2>
+                    <h2 className="text-lg h-max relative font-semibold after:bg-brand after:w-14 after:h-1 after:absolute after:rounded-md after:-bottom-2 after:left-0 md:text-3xl">Featured Articles</h2>
                     <MoreArticles />
                 </div>
             

@@ -8,7 +8,7 @@ import { AppContextType } from "../types";
 const MoreArticles = () => {
     const {setPage} = useContext(AppContext) as AppContextType
     return (
-        <button onClick={() => {setPage("Articles")}} className="gap-1 cursor-pointer flex h-max items-center text-brand hover:scale-105">
+        <button onClick={() => {setPage("Articles")}} className="gap-1 cursor-pointer text-sm flex h-max items-center text-brand hover:scale-105 md:text-base">
             More Articles
             <AiOutlineArrowRight color={"#0aff9d"} size={20} />
         </button>
