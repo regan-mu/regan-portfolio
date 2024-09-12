@@ -23,7 +23,7 @@ const Sidebar = () => {
                     </div>
                 </div>
             </div>
-            <div className={`flex-col gap-5 ${toggleInfo ? 'flex': 'hidden'}`}>
+            <div className={`flex-col gap-5 ${toggleInfo ? 'flex': 'hidden md:flex'}`}>
                 <div className="flex flex-col gap-3 px-5 border-t border-gray-600 pt-5 md:px-10">
                     <ContactCard icon={<AiOutlineMobile size={24} color="#0aff9d" />} method="Phone" value="(+254) 728832625" />
                     <ContactCard icon={<AiOutlineMail size={24} color="#0aff9d" />} method="Email" value="regan.muthomi@yahoo.com" />
