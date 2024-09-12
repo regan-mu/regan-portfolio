@@ -9,3 +9,17 @@
     text-wrap: balance;
   }
 }
+
+/* .swiper {
+  width: 100%;
+  height: 400px;
+  overflow: visible;
+} */
+
+.swiper-button-next, .swiper-button-prev  {
+  color: #0aff9d !important;
+}
+
+.swiper-pagination-bullet {
+  background: #0aff9d !important;
+}

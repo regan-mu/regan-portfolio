@@ -36,3 +36,12 @@ export interface IProject {
     github: string,
     tools: string[]
 }
+
+export interface ITestimonial {
+    id: number,
+    message: string,
+    client: string,
+    role: string,
+    company?: string,
+    website: string
+}

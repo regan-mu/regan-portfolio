@@ -1,7 +1,7 @@
 import React from "react";
 import {articles} from "../../data/articleData";
 import ArticleCard from "../cards/article";
-import MoreArticles from "../buttons/moreArticles"
+import Testimonials from "../cards/testimonials";
 
 const AboutMe = () => {
     return (
@@ -23,22 +23,11 @@ const AboutMe = () => {
             </div>
             <div className="flex flex-col gap-10">
                 <div className="flex w-full justify-between items-center">
-                    <h2 className="text-lg h-max relative font-semibold after:bg-brand after:w-14 after:h-1 after:absolute after:rounded-md after:-bottom-2 after:left-0 md:text-3xl">Featured Articles</h2>
-                    <MoreArticles />
+                    <h2 className="text-2xl h-max relative font-semibold after:bg-brand after:w-14 after:h-1 after:absolute after:rounded-md after:-bottom-2 after:left-0 md:text-3xl">Testimonials</h2>
                 </div>
             
                 <div className="flex flex-col gap-10 md:flex-row">
-                    {
-                        articles.slice(0, 2).map(article => <ArticleCard
-                            key={article.id}
-                            id={article.id}
-                            image={article.image}
-                            title={article.title}
-                            intro={article.intro}
-                            date={article.date}
-                            link={article.link}
-                         />)
-                    }
+                    <Testimonials />
                 </div>
             </div>
         </div>
