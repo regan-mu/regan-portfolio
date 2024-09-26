@@ -4,7 +4,7 @@ import { ContextWrapper } from "./context/AppContext";
 
 export const metadata: Metadata = {
   title: "Regan Muthomi",
-  description: "Data Scientist with year of experience building scalable machine learning solutions at a high level.",
+  description: "Software with years of experience building scalable software solutions at a high level.",
 };
 
 export default function RootLayout({

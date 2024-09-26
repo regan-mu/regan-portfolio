@@ -21,4 +21,14 @@ export const projects: IProject[] = [
             "Tensorflow", "CNN", "Streamlit", "OpenCV"
         ]
     },
+    {
+        id: 3,
+        title: "Petsgram",
+        description: "A fun instagram-like app for pets.😃",
+        demo: "https://petsgram-client.vercel.app/",
+        github: "https://github.com/regan-mu/petsgram-backend",
+        tools: [
+            "Django", "React", "Typescript", "Cloudinary"
+        ]
+    },
 ]
