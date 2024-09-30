@@ -31,4 +31,14 @@ export const projects: IProject[] = [
             "Django", "React", "Typescript", "Cloudinary"
         ]
     },
+    {
+        id: 4,
+        title: "Motorverse",
+        description: "Car Inventory apllication",
+        demo: "https://motorverse.onrender.com/motorverse",
+        github: "https://github.com/regan-mu/motorverse",
+        tools: [
+            "NodeJs", "ExpressJs", "PUG", "MongoDB"
+        ]
+    },
 ]
