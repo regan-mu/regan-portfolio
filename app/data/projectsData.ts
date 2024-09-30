@@ -24,17 +24,17 @@ export const projects: IProject[] = [
     {
         id: 3,
         title: "Petsgram",
-        description: "A fun instagram-like app for pets.😃",
+        description: "A fun instagram-like app for pets. Call it instagram for pets if you like.",
         demo: "https://petsgram-client.vercel.app/",
         github: "https://github.com/regan-mu/petsgram-backend",
         tools: [
-            "Django", "React", "Typescript", "Cloudinary"
+            "Django", "DRF", "React", "Typescript", "Cloudinary"
         ]
     },
     {
         id: 4,
         title: "Motorverse",
-        description: "Car Inventory apllication",
+        description: "A simple web application for car inventory and listing",
         demo: "https://motorverse.onrender.com/motorverse",
         github: "https://github.com/regan-mu/motorverse",
         tools: [
