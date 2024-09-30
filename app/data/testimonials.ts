@@ -24,6 +24,14 @@ const TestimonialArray:ITestimonial[] = [
         role: "Dermatologist",
         website: "https://www.drevansmasanta.com/",
         company: "Consultant"
-    }
+    },
+    {
+        id: 4,
+        message: "Working with Regan has been an absolute pleasure. His attention to detail and ability to bring designs to life with clean, efficient code made the collaboration seamless. He communicated clearly and always found solutions to complex challenges. I highly recommend him for any development project!",
+        client: "Vincent Kang'ethe",
+        role: "UI-UX Designer",
+        website: "https://vinniemioru.webflow.io/",
+        company: "Consultant"
+    },
 ]
 export default TestimonialArray;

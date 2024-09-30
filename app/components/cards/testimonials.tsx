@@ -14,13 +14,10 @@ const Testimonials = () => {
             spaceBetween={50}
             slidesPerView={1}
             autoplay={{
-                delay: 3000,
+                delay: 4000,
                 disableOnInteraction: false,
             }}
             pagination={{ clickable: true }}
-            scrollbar={{ draggable: true }}
-            onSlideChange={() => console.log('slide change')}
-            onSwiper={(swiper) => console.log(swiper)}
             >
                 
                     {TestimonialArray.map(testimonial => <SwiperSlide key={testimonial.id} ><TestimonialCard 

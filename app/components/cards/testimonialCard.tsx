@@ -1,13 +1,12 @@
 import React from "react";
-import Image from "next/image";
 import Link from "next/link";
 import { ITestimonial } from "../types";
 
 const TestimonialCard: React.FC<ITestimonial> = ({id, client, message, website, role, company}) => {
     return (
         <div className="w-full h-auto flex flex-col gap-10 justify-center items-center rounded-xl relative py-5 px-0 md:px-20">
-            <div className="relative before:absolute before:content-['\201c'] before:text-gray-500 before:-z-10 before:text-9xl before:-top-7 before:-left-5 before:font-extrabold"></div>
-            <blockquote className="relative text-xs text-center font-extralight md:text-base">
+            <div className="relative w-full before:absolute before:content-['\201c'] before:text-gray-500 before:-z-10 before:text-9xl before:-top-7 before:-left-5 before:font-extrabold"></div>
+            <blockquote className="relative font-poppins text-xs text-center text-gray-300 font-extralight md:text-sm">
                 {message}
             </blockquote>
             <span className="text-center text-xs items-center mb-5">
