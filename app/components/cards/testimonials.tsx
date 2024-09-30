@@ -1,5 +1,5 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from 'swiper/modules';
+import { Pagination, Autoplay } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
@@ -9,7 +9,7 @@ import TestimonialArray from '@/app/data/testimonials';
 const Testimonials = () => {
     return (
         <Swiper
-        className="w-full h-max overflow-visible md:h-[400px]"
+        className="w-full h-max overflow-visible"
             modules={[Pagination, Autoplay]}
             spaceBetween={50}
             slidesPerView={1}
