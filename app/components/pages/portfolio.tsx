@@ -2,7 +2,7 @@ import PortfolioProject from "../cards/portfolioProject";
 import { projects } from "@/app/data/projectsData";
 const Portfolio = () => {
     return (
-        <div className="w-full h-full flex flex-wrap mt-5 gap-5 lg:gap-10">
+        <section className="w-full h-auto flex flex-col flex-nowrap overflow-x-auto mt-5 gap-5 lg:gap-10 md:pb-10 md:flex-row">
             {
                 projects.map(project => <PortfolioProject 
                     key={project.id} 
@@ -15,7 +15,7 @@ const Portfolio = () => {
                 />
             )}
             
-        </div>
+        </section>
     )
 }
 

@@ -19,6 +19,7 @@ const config: Config = {
       fontFamily: {
         manrope: ["Manrope", "sans-serif"],
         poppins: ["Poppins", "sans-serif"],
+        jost: ["Jost", "sans-serif"]
       },
     },
   },

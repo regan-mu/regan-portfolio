@@ -1,24 +1,18 @@
 import React from "react";
-import {articles} from "../../data/articleData";
-import ArticleCard from "../cards/article";
 import Testimonials from "../cards/testimonials";
 
 const AboutMe = () => {
     return (
-        <div className="flex flex-col gap-12">
-            <div className="flex flex-col gap-2 col-span-2 md:text-lg">
+        <section className="flex flex-col gap-12">
+            <div className="flex flex-col gap-2 col-span-2 tracking-wide leading-tight md:text-lg md:font-medium">
                 <p>
-                    I&apos;m a Software Engineer skilled in Python, Typescript, and SQL, 
-                    with a focus on writing clean, efficient code and building practical 
-                    solutions. I enjoy tackling complex problems and creating software 
-                    that&apos;s designed to be reliable and easy to maintain.
+                    Hi, I&apos;m Regan, a <span className="text-brand">full-stack software engineer</span> with over 3 years of proven experience building innovative software solutions. 
+                    I specialize in creating high-quality web applications that are not only functional but scalable and efficient. 
+                    Alongside development, I also write about technology, sharing insights and tutorials to help others learn and grow.
                 </p>
                 <p>
-                    My experience in data science is an added benefit, 
-                    allowing me to approach software development with a 
-                    solid understanding of data analysis, statistical methods, 
-                    and visualization. This combination of skills helps me contribute 
-                    to teams by integrating data-driven approaches into software projects.
+                    Whether you&apos;re looking for someone to bring your ideas to life, or need expertise to tackle complex technical challenges, I&apos;m here to help. 
+                    Let&apos;s collaborate to turn your vision into a reality!
                 </p>
             </div>
             <div className="flex flex-col gap-10">
@@ -30,7 +24,7 @@ const AboutMe = () => {
                     <Testimonials />
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 

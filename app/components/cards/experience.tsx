@@ -29,9 +29,7 @@ const Experience = () => {
                     </span>
                     <h2 className="text-2xl font-poppins font-bold">My Skills</h2>
                 </div>
-                <div className="">
-                    <Skills />
-                </div>
+                <Skills />
             </div>
         </div>
     )
