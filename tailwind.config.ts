@@ -14,7 +14,9 @@ const config: Config = {
         opaque: "linear-gradient(180deg, #111, #ebecf3)",
         darkBg: "#080808",
         lightBg: "#232323",
-        bg: "#111"
+        bg: "#111",
+        light: "#B3C8CF",
+        lightAccent: "#BED7DC"
       },
       fontFamily: {
         manrope: ["Manrope", "sans-serif"],
@@ -24,5 +26,6 @@ const config: Config = {
     },
   },
   plugins: [],
+  darkMode: "selector"
 };
 export default config;

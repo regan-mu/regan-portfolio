@@ -10,6 +10,10 @@
   }
 }
 
+* {
+  @apply transition-colors duration-[50ms];
+}
+
 
 .swiper-button-next, .swiper-button-prev  {
   color: #0aff9d !important;

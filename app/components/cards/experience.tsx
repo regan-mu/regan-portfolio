@@ -19,7 +19,7 @@ const Experience = () => {
                     {
                         Jobs.map(job => <JobDetails key={job.id} id={job.id} title={job.title} period={job.period} employer={job.employer} roles={job.roles} />)
                     }
-                    <div className="absolute top-0 left-2 w-[1px] h-full bg-brand z-0"></div>
+                    <div className="absolute top-0 left-2 w-[1px] h-full bg-darkBg dark:bg-brand z-0"></div>
                 </div>
             </div>
             <div className="flex flex-col gap-10">

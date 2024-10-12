@@ -20,6 +20,8 @@ export type AppContextType = {
     setPage: (page: string) => void;
     toggleInfo: boolean;
     setToggle: () => void; 
+    setDarkMode: (status: boolean) => void;
+    darkModeOn: boolean;
 }
 
 export interface ISkillGroup {

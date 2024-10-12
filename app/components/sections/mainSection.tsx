@@ -1,4 +1,3 @@
-"use client"
 import { useContext } from "react";
 import NavBar from "../nav/nav";
 import AboutMe from "../pages/about";
@@ -11,7 +10,7 @@ import { AppContextType } from "../types";
 const MainPageSection = () => {
     const {activePage} = useContext(AppContext) as AppContextType;
     return (
-        <div className="rounded-xl p-5 w-full col-span-5 bg-lightBg flex flex-col gap-10 mt-10 md:p-10 lg:mt-0">
+        <div className="rounded-xl p-5 w-full col-span-5 bg-gray-200 dark:bg-lightBg flex flex-col gap-10 mt-10 md:p-10 lg:mt-0">
             <NavBar />
             {activePage === "About Me" && <AboutMe />}
             {activePage === "Resume" && <Resume />}

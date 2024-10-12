@@ -10,9 +10,14 @@ export const AppContext = createContext<AppContextType | null>(null);
 const ContextProvider:React.FC<{children: React.ReactNode}> = ({children}) => {
     const [activePage, setActivePage] = useState<string>("About Me");
     const [toggleInfo, setToggleInfo] = useState<boolean>(false);
+    const [darkModeOn, setdarkModeOn] = useState<boolean>(true);
 
     const setPage = (page: string) => {
         setActivePage(page);
+    }
+
+    const setDarkMode = (status: boolean) => {
+        setdarkModeOn(status);
     }
 
     const setToggle = () => {
@@ -25,7 +30,9 @@ const ContextProvider:React.FC<{children: React.ReactNode}> = ({children}) => {
                 activePage,
                 setPage,
                 toggleInfo,
-                setToggle
+                setToggle,
+                setDarkMode,
+                darkModeOn
             }}
         >
             {children}
