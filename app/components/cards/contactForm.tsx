@@ -19,7 +19,7 @@ const ContactForm = () => {
     return (
         <div className="w-full px-5 py-10 flex flex-col gap-5 border-t border-gray-300 dark:border-gray-600">
             <div>
-                {success && <p className="w-full py-2 bg-green-200 text-green-700 rounded-sm text-xs font-semibold text-center">Success! Email set</p>}
+                {success && <p className="w-full py-2 bg-green-200 text-green-700 rounded-sm text-xs font-semibold text-center">Your message has been received</p>}
                 {errors.root && <p className="w-full py-2 bg-red-200 text-red-600 rounded-sm text-xs font-semibold text-center">{errors?.root?.message}</p>}
                 <h3 className="text-xl font-bold">Get in Touch</h3>
                 <p className="dark:text-gray-300 text-gray-500 text-sm font-light">Talk to me. Let me know how I can help.</p>
