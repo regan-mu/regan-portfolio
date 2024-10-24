@@ -33,6 +33,16 @@ export const projects: IProject[] = [
     },
     {
         id: 4,
+        title: "Qwiz",
+        description: "Qwiz is a web application designed for creating, managing, and answering quizzes online. ",
+        demo: "https://qwiz-client.vercel.app",
+        github: "https://github.com/regan-mu/qwiz-backend",
+        tools: [
+            "Express.js", "React", "PostgreSQL", "Prisma", "TypeScript"
+        ]
+    },
+    {
+        id: 5,
         title: "Motorverse",
         description: "A simple web application for car inventory and listing",
         demo: "https://motorverse.onrender.com/motorverse",

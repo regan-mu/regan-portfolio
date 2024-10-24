@@ -20,7 +20,7 @@ const AboutMe = () => {
                     <h2 className="text-2xl h-max relative font-semibold after:bg-brand after:w-14 after:h-1 after:absolute after:rounded-md after:-bottom-2 after:left-0 md:text-3xl">Testimonials</h2>
                 </div>
             
-                <div className="flex flex-col gap-10 md:flex-row">
+                <div className="flex flex-col gap-10 bg-gray-300 dark:bg-bg py-10 rounded-2xl md:flex-row">
                     <Testimonials />
                 </div>
             </div>

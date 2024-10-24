@@ -32,11 +32,11 @@ export async function POST(req: Request) {
             <p>Name: ${name} </p>
             <p>Email: ${email} </p>
             <p>Phone: ${phone} </p>
-            <p>Address: ${message} </p>
+            <p>Message: ${message} </p>
             `,
         })
 
-        return NextResponse.json({ message: "Success: email was sent" })
+        return NextResponse.json({ message: "Your message has been received" })
 
     } catch (error) {
         return NextResponse.json(

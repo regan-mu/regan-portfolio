@@ -16,8 +16,8 @@ const Sidebar = () => {
                     <h1 className="text-xl font-semibold font-poppins">Regan Muthomi</h1>
                     <p className="font-light text-sm text-gray-800 dark:text-brand">Software Engineer</p>
                     <div className="w-full h-auto flex justify-end py-3 md:hidden">
-                        <div onClick={() => {setToggle()}} className="w-12 h-12 relative rounded-lg flex justify-center items-center bg-gradient-to-bl from-lightBg to-darkBg hover:scale-105">
-                            {toggleInfo ? <FaAngleUp size={32} color={"#0aff9d"} /> : <FaAngleDown size={32} color={"#0aff9d"} />}
+                        <div onClick={() => {setToggle()}} className="w-12 h-12 relative rounded-lg flex text-darkBg justify-center items-center bg-lightAccent dark:bg-darkBg dark:text-brand hover:scale-105">
+                            {toggleInfo ? <FaAngleUp size={32}  /> : <FaAngleDown size={32}  />}
                         </div>
                     </div>
                 </div>
