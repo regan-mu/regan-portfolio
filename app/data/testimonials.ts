@@ -4,10 +4,10 @@ const TestimonialArray:ITestimonial[] = [
     {
         id: 1,
         message: "I've worked with Regan on several projects, and he consistently delivers high-quality work. His professionalism, attention to detail, and ability to meet deadlines have made him a valuable partner.",
-        client: "Yasin Ismail",
+        client: "Abdullahi Mohamed",
         role: "Founder",
-        company: "Glafpol",
-        website: "https://www.glafpol.com/"
+        company: "Pamba Africa",
+        website: "https://www.pamba.africa/"
     },
     {
         id: 2,
