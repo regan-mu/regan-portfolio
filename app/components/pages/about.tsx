@@ -6,11 +6,12 @@ const AboutMe = () => {
         <section className="flex flex-col gap-12">
             <div className="flex flex-col gap-2 col-span-2 tracking-wide leading-tight md:text-lg md:font-medium">
                 <p>
-                Hi 👋 I'm Regan, a <span className="dark:text-brand  font-extrabold">full-stack software engineer</span> with 4+ years of experience building innovative, scalable web applications. I specialize in creating high-performance solutions that prioritize functionality, efficiency, and long-term maintainability.
-                I'm passionate about knowledge sharing through technical writing—creating tutorials, insights, and deep-dives that help developers solve complex problems and level up their skills.
+                    Hi 👋 I&apos;m Regan, a <span className="dark:text-brand  font-extrabold">full-stack software engineer</span> with 4+ years of experience building innovative, scalable web applications. 
+                    I specialize in creating high-performance solutions that prioritize functionality, efficiency, and long-term maintainability.
+                    I&apos;m passionate about knowledge sharing through technical writing—creating tutorials, insights, and deep-dives that help developers solve complex problems and level up their skills.
                 </p>
                 <p>
-                    Ready to bring your ideas to life or tackle challenging technical problems? Let's collaborate and turn your vision into reality.
+                    Ready to bring your ideas to life or tackle challenging technical problems? Let&apos;s collaborate and turn your vision into reality.
                 </p>
             </div>
             <div className="flex flex-col gap-10">
