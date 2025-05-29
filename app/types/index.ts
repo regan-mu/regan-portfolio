@@ -4,3 +4,12 @@ export interface ContactInfo {
     phone: string,
     message: string
 }
+
+export interface MarqueeProps {
+  children: React.ReactNode;
+  speed?: number;
+  direction?: 'left' | 'right';
+  pauseOnHover?: boolean;
+  className?: string;
+  gradient?: boolean;
+}
