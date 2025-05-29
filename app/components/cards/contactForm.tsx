@@ -26,19 +26,19 @@ const ContactForm = () => {
             </div>
             <form onSubmit={handleSubmit(submitForm)} className="w-full flex flex-col gap-3">
                 <div className="flex flex-col">
-                    <input {...register("name", {required: "Please enter your name"})} className={`w-full h-10 rounded-sm text-gray-100 px-1 text-sm outline-none dark:bg-gray-600 ${errors.name ? " outline-red-500" : "outline-none"}`} placeholder="Your Name" type="text" />
+                    <input {...register("name", {required: "Please enter your name"})} className={`w-full h-10 rounded-sm text-gray-100 px-2 text-sm outline-none dark:bg-gray-600 ${errors.name ? " outline-red-500" : "outline-none"}`} placeholder="Your Name" type="text" />
                     {errors.name && <p className="text-xs text-red-500">{errors.name.message}</p>}
                 </div>
                 <div>
-                    <input {...register("email", {required: "Email required", pattern:{value: /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/, message: "Invalid email"}})} className={`w-full h-10 rounded-sm text-gray-100 px-1 text-sm outline-none dark:bg-gray-600 ${errors.email ? " outline-red-500" : "outline-none"}`} placeholder="Email Address" />
+                    <input {...register("email", {required: "Email required", pattern:{value: /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/, message: "Invalid email"}})} className={`w-full h-10 rounded-sm text-gray-100 px-2 text-sm outline-none dark:bg-gray-600 ${errors.email ? " outline-red-500" : "outline-none"}`} placeholder="Email Address" />
                     {errors.email && <p className="text-xs text-red-500">{errors.email.message}</p>}
                 </div>
                 <div>
-                    <input {...register("phone", {required: "Please enter your mobile number"})} className={`w-full h-10 rounded-sm text-gray-100 px-1 text-sm outline-none dark:bg-gray-600 ${errors.phone ? " outline-red-500" : "outline-none"}`} placeholder="Phone Number" type="text" />
+                    <input {...register("phone", {required: "Please enter your mobile number"})} className={`w-full h-10 rounded-sm text-gray-100 px-2 text-sm outline-none dark:bg-gray-600 ${errors.phone ? " outline-red-500" : "outline-none"}`} placeholder="Phone Number" type="text" />
                     {errors.phone && <p className="text-xs text-red-500">{errors.phone.message}</p>}
                 </div>
                 <div>
-                    <textarea {...register("message", {required: "Please enter your message"})} className={`w-full h-14 resize-none rounded-sm text-gray-100 p-1 text-sm outline-none dark:bg-gray-600 ${errors.message ? " outline-red-500" : "outline-none"}`} placeholder="What's on your Mind?"></textarea>
+                    <textarea {...register("message", {required: "Please enter your message"})} className={`w-full h-14 resize-none rounded-sm text-gray-100 p-2 text-sm outline-none dark:bg-gray-600 ${errors.message ? " outline-red-500" : "outline-none"}`} placeholder="What's on your Mind?"></textarea>
                     {errors.message && <p className="text-xs text-red-500">{errors.message.message}</p>}
                 </div>
                 <button disabled={isSubmitting} className="w-full py-2 dark:bg-brand bg-darkBg text-sm text-gray-100 dark:text-gray-800 font-bold rounded-sm hover:bg-opacity-70 disabled:opacity-30 disabled:cursor-not-allowed">Send Message</button>

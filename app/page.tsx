@@ -13,7 +13,7 @@ export default function Home() {
     <div className={`${darkModeOn && 'dark'}`} >
       <main className="relative w-full h-auto bg-white text-darkBg dark:text-text  p-5 font-manrope max-w-screen-xl dark:bg-darkBg sm:p-10 2xl:py-10" >
         <DarkModeToggle />
-        <div className="grid grid-cols-1 lg:grid-cols-7 lg:gap-10 lg:grid-rows-1" >
+        <div className="grid grid-cols-1 lg:grid-cols-7 lg:gap-6 lg:grid-rows-1" >
           <Sidebar />
           <MainPageSection />
         </div>
